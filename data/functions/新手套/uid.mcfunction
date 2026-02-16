@@ -1,0 +1,6 @@
+scoreboard players add @a uid 0
+scoreboard players tag @a[tag=!uid,score_uid_min=0,score_uid=0] add uid
+execute @a[tag=uid] ~ ~ ~ /scoreboard players add uid uid 1
+execute @a[tag=uid] ~ ~ ~ /scoreboard players operation @s uid = uid uid
+execute @a[tag=uid] ~ ~ ~ /tellraw @a [{"text":"『","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"服务器","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"』","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"欢迎勇者","color":"gold","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":" ","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"selector":"@s","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"游玩混凝土商店,","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"祝你游戏愉快~","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+scoreboard players tag @a[tag=uid] remove uid

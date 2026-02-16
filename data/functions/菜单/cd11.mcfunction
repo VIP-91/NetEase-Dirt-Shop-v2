@@ -1,0 +1,2 @@
+tellraw @s [{"text":"修改uid为目标玩家uid即可转钱","color":"light_purple","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"\n/trigger pay set uid [点击转钱]","color":"green","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"suggest_command","value":"/trigger pay set uid"}}]
+scoreboard players reset @s cd

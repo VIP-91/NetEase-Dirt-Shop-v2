@@ -1,0 +1,1 @@
+execute @r ~ ~ ~ /function system:天降礼包

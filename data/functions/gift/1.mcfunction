@@ -1,0 +1,2 @@
+tellraw @s [{"text":"『","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"服务器","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"』","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"您已经领取过了,不可以重复领取哦~","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+scoreboard players reset @s jq

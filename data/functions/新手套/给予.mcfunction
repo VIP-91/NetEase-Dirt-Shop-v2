@@ -1,0 +1,17 @@
+spawnpoint @s 1089 164 194
+tp @s 1089 164 194
+give @s iron_sword 1 0 {Unbreakable:1b,display:{Lore:["§9§l来自新手玩家的装备之一"],Name:"§8§l勇者之剑"},AttributeModifiers:[{UUIDMost:2542894559856977998L,UUIDLeast:-1618292563861948528L,Amount:0.01d,Slot:"mainhand",AttributeName:"generic.movementSpeed",Operation:0,Name:"generic.movementSpeed"},{UUIDMost:8646384387094433099L,UUIDLeast:-5636309804794237858L,Amount:10.0d,Slot:"mainhand",AttributeName:"generic.attackDamage",Operation:0,Name:"generic.attackDamage"}]}
+give @s minecraft:iron_shovel 1 0 {display:{Name:"§9§l挖§a§l土§b§l的§c§l铲§d§l子",Lore:["§9§l新手铲~"]},Unbreakable:1b,CanDestroy:["minecraft:concrete_powder"],ench:[{id:32s,lvl:1s}]}
+give @s minecraft:carrot_on_a_stick 1 0 {ench:[{lvl:40s,id:0s},{lvl:20s,id:7s}],Unbreakable:1b,HideFlags:3,display:{Lore:["§b≡≡≡≡≡≡≡≡≡≡§f§l[获取途径]§b≡≡≡≡≡≡≡≡≡≡","§4§l新人礼包~~~","§b≡≡≡≡≡≡≡≡≡≡§f§l[物品介绍]§b≡≡≡≡≡≡≡≡≡≡","§4§l右键我打开菜单"],Name:"§e===§d✿§c§l§n菜单§d✿§e==="}}
+replaceitem entity @s slot.armor.chest minecraft:leather_chestplate 1 0 {AttributeModifiers:[{Operation:0,Amount:3,UUIDLeast:-1733713255391441237L,UUIDMost:2172677467866624167L,Slot:chest,AttributeName:"generic.maxHealth",Name:"generic.maxHealth"}],display:{Name:"§8§l勇者皮衣",Lore:["§9§l来自新手玩家的装备之一"],color:4743151},Unbreakable:1}
+replaceitem entity @s slot.armor.feet minecraft:leather_boots 1 0 {AttributeModifiers:[{Operation:0,Amount:3,UUIDLeast:-1726741266155184538L,UUIDMost:2663199438844559711L,Slot:feet,AttributeName:"generic.maxHealth",Name:"generic.maxHealth"}],display:{Name:"§8§l勇者皮靴",Lore:["§9§l来自新手玩家的装备之一"],color:0},Unbreakable:1}
+replaceitem entity @s slot.armor.head minecraft:leather_helmet 1 0 {AttributeModifiers:[{Operation:0,Amount:3,UUIDLeast:-1819512292347814822L,UUIDMost:2218745918955761634L,Slot:head,AttributeName:"generic.maxHealth",Name:"generic.maxHealth"}],display:{Name:"§8§l勇者皮帽",Lore:["§9§l来自新手玩家的装备之一"],color:16515072},Unbreakable:1}
+replaceitem entity @s slot.armor.legs minecraft:leather_leggings 1 0 {AttributeModifiers:[{Operation:0,Amount:3,UUIDLeast:-1663111418529723812L,UUIDMost:2536294811383618342L,Slot:legs,AttributeName:"generic.maxHealth",Name:"generic.maxHealth"}],display:{Name:"§8§l勇者皮裤",Lore:["§9§l来自新手玩家的装备之一"],color:0},Unbreakable:1}
+give @s diamond 1 0 {ench:[{lvl:1s,id:50s}],HideFlags:1,display:{Lore:["§e跑图专用"],Name:"加速石➲"},AttributeModifiers:[{UUIDMost:2877138185224246357L,UUIDLeast:-1622779188574871183L,Amount:0.1d,Slot:"offhand",AttributeName:"generic.movementSpeed",Operation:0,Name:"generic.movementSpeed"}]}
+give @s elytra 1 0 {Unbreakable:1b,display:{Lore:["§c§l用于玩家进行竞技","§c§lPVP玩法选点降落"],Name:"§b§l自由之翼"}}
+give @s minecraft:iron_sword 1 0 {Unbreakable:1b,display:{Lore:["§b≡≡≡≡≡≡≡≡≡≡§f§l[物品属性]§b≡≡≡≡≡≡≡≡≡≡","§7§l伤害加成：§a88.00","§b≡≡≡≡≡≡≡≡≡≡§f§l[获取途径]§b≡≡≡≡≡≡≡≡≡≡","§4§l回档的馈赠","§b≡≡≡≡≡≡≡≡≡≡§f§l[物品介绍]§b≡≡≡≡≡≡≡≡≡≡","§f§l>骑士的意志力幻化而至<","§e§l➢§4§l加入§a§l服务器交流㪊领§6§l五万金币§l§4§l✈§b§l§n823§e§l§n353§6§l§n745"],Name:"§f§l>骑士之剑<"},AttributeModifiers:[{UUIDMost:2663196137235615798L,UUIDLeast:-1379537173373855935L,Amount:88,Slot:"mainhand",AttributeName:"generic.attackDamage",Operation:0,Name:"generic.attackDamage"}]}
+scoreboard teams join 青铜 @s
+scoreboard players set @s victory-dot 0
+scoreboard players add @s 金币 5000
+scoreboard players tag @s add 新
+function 新手套:uid

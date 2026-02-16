@@ -1,0 +1,1 @@
+scoreboard teams join 青铜 @s

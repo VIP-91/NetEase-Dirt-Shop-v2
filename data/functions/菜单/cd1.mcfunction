@@ -1,0 +1,3 @@
+tp @s 1089 163 194
+tellraw @s [{"text":"『","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"服务器","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"』","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"成功返回主城~","color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+scoreboard players reset @s cd

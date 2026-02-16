@@ -1,0 +1,4 @@
+scoreboard players add @s 金币 50000
+tellraw @s [{"text":"『","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"服务器","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"』","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"selector":"@s","color":"yellow","bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"成功领取入裙奖励，已为您增加50000金币~","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+scoreboard players reset @s jq
+scoreboard players tag @s add jq

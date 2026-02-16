@@ -1,0 +1,1 @@
+execute @a[tag=!新] ~ ~ ~ /function 新手套:给予

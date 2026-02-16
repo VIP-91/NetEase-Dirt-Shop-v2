@@ -1,0 +1,9 @@
+scoreboard players reset @a money.test
+scoreboard players reset @a pay.money.test
+scoreboard players reset @a pay.money
+scoreboard players reset @e[tag=pay.armor] paymin
+scoreboard players reset @a paymin
+scoreboard players reset @a payuid
+scoreboard players reset @a pay.left
+scoreboard objectives add pay trigger
+tellraw @a [{"text":"§bPay §8>> §7上一位转钱使用者已经§e结束使用§7,现在转钱可以§a正常使用"}]
