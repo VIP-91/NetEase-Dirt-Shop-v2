@@ -9,11 +9,17 @@
 ## 联系作者/赞助作者
 
 - Email:vip_91_1337@outlook.com
-<div align="center">
+<div align="center" style="margin: 20px 0;">
 
-![微信赞赏码](https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/WeChatpay.jpg)
+<img src="https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/WeChatpay.jpg" alt="微信赞赏" style="width:200px; height:200px; margin: 10px;">  
+*微信扫码赞赏*
+
+<img src="https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/Alipay.png" alt="支付宝赞赏" style="width:200px; height:200px; margin: 10px;">  
+*支付宝扫码赞赏*
 
 </div>
+
+
 ## 许可协议
 
 本作品采用 **知识共享 署名-非商业性使用-禁止演绎 4.0 国际** (CC BY-NC-ND 4.0) 许可协议进行许可。
