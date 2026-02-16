@@ -11,7 +11,7 @@
 - Email:vip_91_1337@outlook.com
 <div align="center">
 
-![微信赞赏码](https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/WeChatpay.png)  
+![微信赞赏码](https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/WeChatpay.jpg)
 
 </div>
 ## 许可协议
