@@ -6,7 +6,14 @@
 还有QQ391048606你不配使用它。
 © 2024 by VIP_91
 
+## 联系作者/赞助作者
 
+- Email:vip_91_1337@outlook.com
+<div align="center">
+
+![微信赞赏码](https://github.com/VIP-91/NetEase-Dirt-Shop-v2/blob/main/images/WeChatpay.png)  
+
+</div>
 ## 许可协议
 
 本作品采用 **知识共享 署名-非商业性使用-禁止演绎 4.0 国际** (CC BY-NC-ND 4.0) 许可协议进行许可。
@@ -53,9 +60,7 @@ CC BY-NC-ND 4.0
 - Minecraft 版本：建议 1.12.2
 - 最后更新：2025 年
 
-## 联系作者/赞助作者
 
-- Email:vip_91_1337@outlook.com
 
 
 
